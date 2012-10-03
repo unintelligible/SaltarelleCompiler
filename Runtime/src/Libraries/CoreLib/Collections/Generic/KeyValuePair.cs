@@ -16,12 +16,13 @@ namespace System.Collections.Generic {
 		public KeyValuePair(TKey key, TValue value) {
 		} 
 
+        [ScriptName("Key")]
         public TKey Key {
             get {
                 return default(TKey);
             }
         }
-
+        [ScriptName("Value")]
         public TValue Value {
             get {
                 return default(TValue);

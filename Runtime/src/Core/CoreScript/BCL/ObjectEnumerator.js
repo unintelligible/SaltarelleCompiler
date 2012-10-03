@@ -18,7 +18,7 @@ ss.ObjectEnumerator.prototype = {
 		if (this._index < 0 || this._index >= this._keys.length)
 			throw 'Invalid operation';
 		var k = this._keys[this._index];
-		return { key: k, value: this._object[k] };
+		return { Key: k, Value: this._object[k] };
 	},
     dispose: function#? DEBUG ObjectEnumerator$dispose##() {
     }
